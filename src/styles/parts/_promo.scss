@@ -1,0 +1,70 @@
+.promo-wrapper {
+    display: flex;
+    margin-top: 96px;
+    position: relative;
+    min-height: 650px;
+
+    .promo-container {
+        padding: 0 162px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .promo-container__left {
+        margin-right: 32px;
+        color: #fff;
+
+        .promo__title {
+            font-weight: 700;
+            font-size: 46px;
+            line-height: 68px;
+        }
+
+        .promo__description {
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 28px;
+        }
+
+        .promo__button {
+            margin-top: 32px;
+
+            .menu__submit {
+                background: #ffb577;
+                padding: 12px 52px 12px 24px;
+                color: #2E2D33;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+            }
+
+            .menu__submit:hover {
+                transform: scale(1.2);
+                transition: 0.9s ease-in-out;
+                cursor: pointer;
+            }
+        }
+
+        .main__info {
+            margin: 40px 0;
+
+            .info__item {
+                margin-top: 10px;
+
+                .info__item__title {
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+
+                .info__item__desc {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    opacity: 0.6;
+                }
+            }
+        }
+    }
+}
