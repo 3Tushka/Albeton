@@ -1,0 +1,62 @@
+.about-container {
+    margin: 160px 0 0;
+    padding: 0 162px;
+    display: flex;
+    color: #fff;
+    height: fit-content;
+
+    .about-container__content {
+        max-width: 50%;
+
+        &__title {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            margin-bottom: 32px;
+        }
+
+        &__desc {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #B8B8B8;
+        }
+    }
+}
+
+.about-info-container {
+    display: flex;
+    margin-top: 40px;
+    gap: 32px;
+
+    .about__item {
+        color: #B8B8B8;
+
+        .about__info__title {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            gap: 7px;
+            margin-bottom: 15px;
+
+            &__text {
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+
+                color: #C4E4EA;
+            }
+        }
+    }
+}
+
+.about-container__photo {
+    display: flex;
+    margin-left: 102px;
+    gap: 102px;
+
+    .photo-one {
+        position: relative;
+        bottom: -20%;
+    }
+}
