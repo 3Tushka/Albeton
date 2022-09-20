@@ -1,0 +1,64 @@
+.menu-container {
+    margin: 160px 0 0;
+    padding: 0 162px;
+    color: #fff;
+
+    .menu-title {
+        display: flex;
+        justify-content: space-around;
+
+        &__main {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+
+            &__quote {
+                margin-top: 32px;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 21px;
+                color: #C4E4EA;
+            }
+        }
+
+        &__domain {
+            width: 500px;
+            margin-left: auto;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #B8B8B8;
+        }
+    }
+
+    .menu-flex {
+        display: flex;
+        justify-content: space-between;
+        margin: 32px 0;
+        flex-wrap: wrap;
+
+        &__item {
+            background: #1F1D21;
+            max-width: 405px;
+
+            &__desc {
+                display: flex;
+                justify-content: space-between;
+                padding: 24px 32px;
+
+                &__item {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 30px;
+                    color: #FFFFFF;
+
+                    opacity: 0.87;
+                }
+            }
+        }
+    }
+
+    .promo__button {
+        text-align: center;
+    }
+}

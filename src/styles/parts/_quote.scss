@@ -1,0 +1,47 @@
+.quote-wrapper {
+    margin-top: 105px;
+    background: #1F1D21;
+    display: flex;
+
+    .quote-left {
+        color: #fff;
+
+        &__main {
+            margin: 160px 78px 72px 160px;
+
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            opacity: 0.87;
+        }
+
+        .quote-left__domain {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 78px 0 160px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.341);
+
+            .quote-left__domain__name {
+
+                &__name {
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 24px;
+                    opacity: 0.87;
+                }
+
+                //doesnt work
+                &__place {
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 16px;
+                    color: red;
+                }
+            }
+
+            &__avatar {
+                border-bottom: solid #fff;
+            }
+        }
+    }
+}
