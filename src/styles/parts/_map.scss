@@ -1,0 +1,42 @@
+.map-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 160px 162px 0;
+    color: #fff;
+    background: #1F1D21;
+
+    &__left {
+
+        .main {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+        }
+
+        .domain {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #B8B8B8;
+
+        }
+
+        &__work {
+            padding: 80px 35px 0 32px;
+        }
+
+        &__location {
+            padding: 32px 35px 0 32px;
+        }
+
+        &__contact {
+            padding: 32px 35px 0 32px;
+        }
+
+    }
+
+    &__right {
+        filter: grayscale(100%) invert(92%) contrast(83%);
+    }
+}
