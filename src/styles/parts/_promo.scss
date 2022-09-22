@@ -69,3 +69,34 @@
         cursor: pointer;
     }
 }
+
+
+@media (max-width:575px) {
+    .promo-wrapper {
+
+        .promo-container {
+            display: block;
+            width: 100%;
+            padding: 0;
+
+            .promo-container__left {
+                margin: 0;
+                padding: 0 20px;
+
+                .promo__title {
+                    font-size: 20px;
+                }
+            }
+
+            .promo-container__right {
+                display: inline;
+
+                img {
+                    max-height: auto;
+                    max-width: 575px;
+                }
+            }
+        }
+
+    }
+}

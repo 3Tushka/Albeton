@@ -72,3 +72,20 @@
         }
     }
 }
+
+@media (max-width:575px) {
+
+    .offers-container {
+        margin: 0;
+        padding: 0;
+
+        .offers-title {
+            padding: 0 20px;
+        }
+
+        .offers-flex-container {
+            flex-wrap: wrap;
+            gap: 0;
+        }
+    }
+}

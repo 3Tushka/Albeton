@@ -60,3 +60,43 @@
         bottom: -20%;
     }
 }
+
+@media (max-width:575px) {
+    .about-container {
+        margin: 30px 0;
+        padding: 0;
+        display: inline-block;
+
+        .about-container__content {
+            max-width: 100%;
+            padding: 0 20px;
+
+            &__title {
+                font-size: 30px;
+                text-align: center;
+            }
+
+            .promo__button {
+                text-align: center;
+
+                button {
+                    text-align: center;
+                    width: 70%;
+                }
+
+                button:hover {
+                    transition: 0.9 ease-in-out;
+                    width: 100%;
+                    transform: scale(1);
+                }
+            }
+        }
+
+        .about-container__photo {
+            display: flex;
+            justify-content: space-evenly;
+            margin: 20px 0;
+            gap: 0;
+        }
+    }
+}

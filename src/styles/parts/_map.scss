@@ -39,3 +39,28 @@
         filter: grayscale(100%) invert(92%) contrast(83%);
     }
 }
+
+@media (max-width:575px) {
+    .map-wrapper {
+        margin: 80px 0 0;
+        display: block;
+        background: none;
+
+        &__left {
+            display: flex;
+            padding-bottom: 32px;
+
+            .domain {
+                font-size: 15px;
+            }
+
+            &__work {
+                padding-top: 32px;
+            }
+        }
+
+        &__right {
+            display: none;
+        }
+    }
+}

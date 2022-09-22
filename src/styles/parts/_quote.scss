@@ -30,7 +30,7 @@
                     opacity: 0.87;
                 }
 
-                //doesnt work
+                //doesnt work idkw
                 &__place {
                     font-weight: 500;
                     font-size: 12px;
@@ -41,6 +41,41 @@
 
             &__avatar {
                 border-bottom: solid #fff;
+            }
+        }
+    }
+}
+
+@media (max-width:575px) {
+    .quote-wrapper {
+        display: inline-block;
+
+        .quote-left {
+            padding: 0 20px;
+
+            &__main {
+                margin: 0;
+                font-size: 20px;
+                opacity: 0.87;
+            }
+
+            .quote-left__domain {
+                margin: 30px 0;
+                display: block;
+                text-align: center;
+
+                &__avatar {
+                    margin: 13px 0;
+                    border: 0;
+                }
+            }
+        }
+
+        .quote-right {
+            width: 100%;
+
+            img {
+                max-width: 575px;
             }
         }
     }
