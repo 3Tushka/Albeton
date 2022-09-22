@@ -73,14 +73,19 @@
     }
 }
 
-@media (max-width:575px) {
+@media (min-width:300px) and (max-width: 768px) {
 
     .offers-container {
-        margin: 0;
-        padding: 0;
+        padding: 0 20px;
 
         .offers-title {
+            margin: 5px 0;
             padding: 0 20px;
+
+            &__main {
+                font-size: 35px;
+                line-height: 50px;
+            }
         }
 
         .offers-flex-container {

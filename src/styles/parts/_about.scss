@@ -100,3 +100,41 @@
         }
     }
 }
+
+@media (min-width:576px) and (max-width: 768px) {
+    .about-container {
+        padding: 0 20px;
+
+        &__content {
+
+            &__title {
+                display: block;
+            }
+        }
+
+        .about-container__photo {
+
+            .photo-one {
+                bottom: 0;
+            }
+
+            .photo-two {
+                display: none;
+            }
+        }
+
+        .about-info-container {
+            .about__item {
+                .about__info__title {
+                    .about__info__title__text {
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+
+        .promo__button {
+            display: none;
+        }
+    }
+}

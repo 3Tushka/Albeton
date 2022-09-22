@@ -100,3 +100,47 @@
 
     }
 }
+
+@media (min-width:576px) and (max-width: 768px) {
+    .promo-wrapper {
+        min-height: auto;
+
+        .promo-container {
+            padding: 0 20px;
+            display: block;
+
+            .promo-container__left {
+
+                .promo__title {
+                    font-size: 20px;
+                    line-height: auto;
+                }
+
+                .promo__button {
+                    text-align: center;
+
+                    button {
+                        text-align: center;
+                        width: 70%;
+                    }
+
+                    button:hover {
+                        transition: 0.9 ease-in-out;
+                        width: 100%;
+                        transform: scale(1);
+                    }
+                }
+
+                .main__info {
+                    display: flex;
+                    margin: 40px auto;
+                    gap: 15px;
+                }
+            }
+
+            .promo-container__right {
+                display: none;
+            }
+        }
+    }
+}

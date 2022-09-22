@@ -46,7 +46,8 @@
     }
 }
 
-@media (max-width:575px) {
+
+@media (min-width:300px) and (max-width:768px) {
     .quote-wrapper {
         display: inline-block;
 
