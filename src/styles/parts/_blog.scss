@@ -45,7 +45,7 @@
     }
 }
 
-@media (min-width:300px) and (max-width:768px) {
+@media(max-width:768px) {
     .blog-wrapper {
         margin: 30px 0 0;
         text-align: center;
@@ -53,6 +53,20 @@
         .blog-flex {
             padding: 0 20px;
             flex-direction: column;
+            align-items: center;
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
         }
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .blog-flex {
+        flex-direction: column;
+        align-items: center;
     }
 }

@@ -73,10 +73,11 @@
     }
 }
 
-@media (min-width:300px) and (max-width: 768px) {
+@media (max-width:768px) {
 
     .offers-container {
         padding: 0 20px;
+        margin: 0 0 20px;
 
         .offers-title {
             margin: 5px 0;
@@ -91,6 +92,8 @@
         .offers-flex-container {
             flex-wrap: wrap;
             gap: 0;
+
+
         }
     }
 }

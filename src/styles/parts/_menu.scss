@@ -63,12 +63,13 @@
     }
 }
 
-@media (min-width:300px) and (max-width:768px) {
+@media (max-width:768px) {
     .menu-container {
         margin: 0;
-        padding: 0 20px;
+        padding: 0;
 
         .menu-title {
+            padding: 0 20px;
 
             &__main {
                 padding-right: 20px;
@@ -81,10 +82,28 @@
 
         .menu-flex {
             flex-direction: column;
+            align-items: center;
 
             &__item {
                 text-align: center;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
+                }
             }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .menu-container {
+        padding: 0 20px;
+
+        .menu-flex {
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }

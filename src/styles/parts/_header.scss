@@ -86,3 +86,22 @@
         }
     }
 }
+
+@media (max-width:425px) {
+
+    .header-container {
+        padding: 22px 0;
+
+        .nav-wrapper {
+            .nav-link {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+                &__item {
+                    margin: 7px 0 0;
+                }
+            }
+        }
+    }
+}

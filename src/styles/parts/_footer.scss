@@ -78,8 +78,19 @@
 @media (max-width:575px) {
 
     .footer-nav-container {
+
+        .footer-nav {
+            text-align: center;
+            flex-direction: column;
+            gap: 0;
+
+            .nav-link__item {
+                padding: 12px 0;
+            }
+        }
+
         .footer-logo {
-            margin: 0 auto 45px;
+            margin: 20px auto 15px;
         }
     }
 }

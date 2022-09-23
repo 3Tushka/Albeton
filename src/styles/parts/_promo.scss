@@ -71,7 +71,7 @@
 }
 
 
-@media (max-width:575px) {
+@media (max-width:425px) {
     .promo-wrapper {
 
         .promo-container {
@@ -92,8 +92,9 @@
                 display: inline;
 
                 img {
-                    max-height: auto;
-                    max-width: 575px;
+                    width: 100%;
+                    height: auto;
+                    object-fit: cover;
                 }
             }
         }
@@ -140,6 +141,19 @@
 
             .promo-container__right {
                 display: none;
+            }
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .promo-wrapper {
+        .promo-container {
+            padding: 0 20px;
+            margin: 0;
+
+            .promo__title {
+                font-size: 37px;
             }
         }
     }
