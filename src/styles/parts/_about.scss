@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width:425px) {
+@media (max-width:575px) {
     .about-container {
         margin: 30px 0;
         padding: 0;
@@ -95,11 +95,12 @@
         .about-container__photo {
             display: flex;
             justify-content: space-evenly;
+            text-align: center;
             margin: 20px 0;
             gap: 0;
 
             img {
-                width: 100%;
+                width: 90%;
                 height: auto;
                 object-fit: cover;
             }
