@@ -41,7 +41,7 @@
 }
 
 
-@media (min-width:200px) and (max-width:768px) {
+@media (min-width:200px) and (max-width:1439px) {
     .map-wrapper {
         margin: 80px 0 0;
         display: block;
@@ -50,6 +50,7 @@
         &__left {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             padding-bottom: 32px;
 
             .domain {
@@ -64,13 +65,5 @@
         &__right {
             display: none;
         }
-    }
-}
-
-@media (min-width:769px) and (max-width:1024px) {
-
-    .map-wrapper {
-        //???
-        margin: 162px 0;
     }
 }
